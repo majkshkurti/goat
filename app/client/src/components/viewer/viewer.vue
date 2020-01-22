@@ -2,7 +2,7 @@
   <div>
     <!-- TOGGLE STREET VIEW -->
     <v-btn
-      v-if="!miniViewerVisible"
+      v-if="false"
       class="mx-2 miniviewer-button"
       fab
       dark
