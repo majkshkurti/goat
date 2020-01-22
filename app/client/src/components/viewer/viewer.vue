@@ -2,7 +2,7 @@
   <div>
     <!-- TOGGLE STREET VIEW -->
     <v-btn
-      v-if="false"
+      v-if="!miniViewerVisible"
       class="mx-2 miniviewer-button"
       fab
       dark
@@ -10,7 +10,7 @@
       color="green"
       @click="showMiniViewer"
     >
-      <v-icon dark>remove_red_eye</v-icon>
+      <v-icon dark>streetview</v-icon>
     </v-btn>
 
     <!-- MINI-VIEW -->
@@ -61,7 +61,7 @@ export default {
 
 .miniviewer-button {
   position: absolute;
-  top: 110px;
+  top: 150px;
   left: 8px;
   z-index: 1;
 }
