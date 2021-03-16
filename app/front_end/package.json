@@ -21,7 +21,7 @@
     "materialize-css": "^1.0.0-rc.2",
     "ol": "^5.2.0",
     "ol-ext": "^3.0.2",
-    "parcel-bundler": "^1.12.3",
+    "parcel-bundler": "^1.12.5",
     "watchman": "^1.0.0"
   },
   "devDependencies": {
